@@ -1,0 +1,55 @@
+.image-to-show {
+  width: 400px;
+  height: 400px;
+}
+.image-to-show {
+  width: 400px;
+  height: 400px;
+}
+
+.images-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.timer {
+  color: #ffffff;
+  font-size: 50px;
+  margin: 0 auto;
+}
+
+.show {
+  display: inline-block;
+  animation: 0.5s linear fadein, 0.5s linear 2.5s fadeout;
+}
+
+.hidden {
+  display: none;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
+  }
+}
